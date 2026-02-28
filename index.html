@@ -1,52 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Future Scholars PH</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-        header {
-            background: #1e3a8a;
-            color: white;
-            padding: 60px 20px;
-        }
-        h1 {
-            margin: 0;
-            font-size: 2.8rem;
-        }
-        p {
-            max-width: 600px;
-            margin: 20px auto;
-            font-size: 1.2rem;
-        }
-        .donate-btn {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 12px 30px;
-            background-color: #16a34a;
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
-            font-size: 1rem;
-        }
-        .donate-btn:hover {
-            background-color: #15803d;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Future Scholars PH</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <h1>Future Scholars PH</h1>
-    <p>Providing educational resources and support to students in need across the Philippines.</p>
-    <a href="#" class="donate-btn">Donate Now</a>
-</header>
+  <!-- NAV -->
+  <div class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">
+        <span class="logo">FS</span>
+        <span>Future Scholars PH</span>
+      </a>
+      <div class="links">
+        <a href="about.html">About</a>
+        <a href="donate.html">Donate</a>
+        <a href="updates.html">Updates</a>
+        <a href="contact.html">Contact</a>
+        <a class="btn btn-primary" href="donate.html">Donate</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="container hero-grid">
+      <div class="hero-card">
+        <h1>Help students learn with the supplies they deserve.</h1>
+        <p>
+          Future Scholars PH supports students in the Philippines by helping provide
+          essential school supplies and classroom resources.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="donate.html">Donate Now</a>
+          <a class="btn" href="about.html">Learn more</a>
+        </div>
+        <div class="pill">📚 Education • 🤝 Community • 🇵🇭 Philippines</div>
+      </div>
+
+      <div class="side-card">
+        <h3>How your donation helps</h3>
+        <div class="stat"><span class="muted">$5</span> <b>Supplies bundle</b></div>
+        <div class="stat"><span class="muted">$25</span> <b>Multiple students</b></div>
+        <div class="stat"><span class="muted">$100</span> <b>Classroom needs</b></div>
+        <p class="muted" style="margin:12px 0 0;">
+          Full details and updates will be posted on the Updates page.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- CARDS -->
+  <div class="section">
+    <div class="container">
+      <div class="grid">
+        <div class="card">
+          <h4>Our Mission</h4>
+          <p class="muted">
+            Reduce barriers to learning by supporting schools and students with essential resources.
+          </p>
+        </div>
+        <div class="card">
+          <h4>Transparency</h4>
+          <p class="muted">
+            We’ll share updates showing what was purchased and where it was delivered.
+          </p>
+        </div>
+        <div class="card">
+          <h4>How You Can Help</h4>
+          <p class="muted">
+            Donate, share the campaign, and help spread the message to reach more supporters.
+          </p>
+        </div>
+      </div>
+
+      <div class="footer">
+        © 2026 Future Scholars PH • Built for Senior Project • <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>
