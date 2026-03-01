@@ -6,106 +6,181 @@
   <title>Future Scholars PH</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
+<body>
   <!-- NAV -->
-  <div class="nav">
+  <header class="nav">
     <div class="container nav-inner">
       <a class="brand" href="index.html">
-        <span class="logo">FS</span>
-        <span>Future Scholars PH</span>
+        <span class="brand-mark">FS</span>
+        <span class="brand-name">Future Scholars PH</span>
       </a>
-      <div class="links">
-        <a href="about.html">About</a>
-        <a href="donate.html">Donate</a>
+
+      <nav class="nav-links">
+        <a href="about.html">Our Vision</a>
+        <a href="projects.html">Projects</a>
         <a href="updates.html">Updates</a>
         <a href="contact.html">Contact</a>
         <a class="btn btn-primary" href="donate.html">Donate</a>
-      </div>
+      </nav>
     </div>
-  </div>
+  </header>
 
-  <!-- HERO -->
-  <div class="hero">
-    <div class="container hero-grid">
-      <div class="hero-card">
-        <h1>Help students learn with the supplies they deserve.</h1>
-        <p>
-          Future Scholars PH supports students in the Philippines by helping provide
-          essential school supplies and classroom resources.
-        </p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="donate.html">Donate Now</a>
-          <a class="btn" href="about.html">Learn more</a>
+  <!-- HERO (like Lusaka) -->
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Education • Community • Philippines</p>
+          <h1>Helping students learn with the supplies they deserve.</h1>
+          <p class="subhead">
+            We’re raising money to support an elementary school in the Philippines with
+            classroom supplies and learning materials.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="donate.html">Donate</a>
+            <a class="btn btn-ghost" href="about.html">Learn More</a>
+          </div>
+
+          <div class="mini-stats">
+            <div class="mini-stat"><span>$5</span><small>Supplies bundle</small></div>
+            <div class="mini-stat"><span>$25</span><small>Multiple students</small></div>
+            <div class="mini-stat"><span>$100</span><small>Classroom needs</small></div>
+          </div>
         </div>
-        <div class="pill">📚 Education • 🤝 Community • 🇵🇭 Philippines</div>
+
+        <!-- Replace this image with YOUR school photo if you want -->
+        <div class="hero-media">
+          <img src="assets/hero.jpg" alt="Students at the school" />
+        </div>
       </div>
+    </section>
 
-      <div class="side-card">
-        <h3>How your donation helps</h3>
-        <div class="stat"><span class="muted">$5</span> <b>Supplies bundle</b></div>
-        <div class="stat"><span class="muted">$25</span> <b>Multiple students</b></div>
-        <div class="stat"><span class="muted">$100</span> <b>Classroom needs</b></div>
-        <p class="muted" style="margin:12px 0 0;">
-          Full details and updates will be posted on the Updates page.
-        </p>
+    <!-- FEATURE SECTIONS (like Lusaka: image + text + Learn More) -->
+    <section class="section">
+      <div class="container">
+        <div class="feature">
+          <div class="feature-media">
+            <img src="assets/materials.jpg" alt="School supplies and materials" />
+          </div>
+          <div class="feature-copy">
+            <h2>Materials for learning</h2>
+            <p>
+              We help provide basic supplies like paper, pencils, notebooks, and learning tools
+              that students use every day.
+            </p>
+            <a class="link" href="projects.html">Learn More →</a>
+          </div>
+        </div>
+
+        <div class="feature feature-reverse">
+          <div class="feature-media">
+            <img src="assets/classroom.jpg" alt="Classroom improvement" />
+          </div>
+          <div class="feature-copy">
+            <h2>Classroom improvements</h2>
+            <p>
+              Funds can also help with classroom needs like shelves, storage, and repairs to make
+              learning safer and better.
+            </p>
+            <a class="link" href="projects.html">Learn More →</a>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="feature-media">
+            <img src="assets/community.jpg" alt="Community support" />
+          </div>
+          <div class="feature-copy">
+            <h2>Support for the school community</h2>
+            <p>
+              We share updates so supporters can see progress, what was purchased, and where it went.
+            </p>
+            <a class="link" href="updates.html">Learn More →</a>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-	
-	<!-- FUNDRAISING PROGRESS -->
-<div class="section">
-  <div class="container">
-    <div class="card" style="text-align:center;">
-      <h2>Fundraising Progress</h2>
-      <p class="muted">
-        Help us reach our goal to improve classroom conditions and provide essential supplies.
-      </p>
+    </section>
 
-      <div class="gfm-embed"
-           data-url="https://www.gofundme.com/f/help-improve-a-school-in-the-philippines/widget/large">
-      </div>
-      <script defer src="https://www.gofundme.com/static/js/embed.js"></script>
-
-      <br>
-      <a class="btn btn-primary"
-         href="https://www.gofundme.com/f/help-improve-a-school-in-the-philippines"
-         target="_blank">
-         Donate on GoFundMe
-      </a>
-    </div>
-  </div>
-</div>
-
-  <!-- CARDS -->
-  <div class="section">
-    <div class="container">
-      <div class="grid">
-        <div class="card">
-          <h4>Our Mission</h4>
+    <!-- GOFUNDME SECTION -->
+    <section class="section section-soft">
+      <div class="container">
+        <div class="card center">
+          <h2>Fundraising progress</h2>
           <p class="muted">
-            Reduce barriers to learning by supporting schools and students with essential resources.
+            See our current total and help us reach the goal.
+          </p>
+
+          <!-- Your GoFundMe widget -->
+          <div class="gfm-embed"
+            data-url="https://www.gofundme.com/f/help-improve-a-school-in-the-philippines/widget/large">
+          </div>
+          <script defer src="https://www.gofundme.com/static/js/embed.js"></script>
+
+          <div style="height:14px"></div>
+          <a class="btn btn-primary" target="_blank"
+             href="https://www.gofundme.com/f/help-improve-a-school-in-the-philippines">
+            Donate on GoFundMe
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUOTE (like Lusaka) -->
+    <section class="section">
+      <div class="container">
+        <blockquote class="quote">
+          <p>
+            “Every donation helps us bring real supplies to students who need them.”
+          </p>
+          <footer>— Future Scholars PH</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section-dark">
+      <div class="container contact-grid">
+        <div>
+          <h2>Contact</h2>
+          <p class="muted-on-dark">
+            Questions or want to support in other ways? Reach out anytime.
           </p>
         </div>
-        <div class="card">
-          <h4>Transparency</h4>
-          <p class="muted">
-            We’ll share updates showing what was purchased and where it was delivered.
-          </p>
-        </div>
-        <div class="card">
-          <h4>How You Can Help</h4>
-          <p class="muted">
-            Donate, share the campaign, and help spread the message to reach more supporters.
-          </p>
+
+        <div class="contact-card">
+          <div class="contact-row">
+            <span class="label">Email</span>
+            <a href="mailto:youremail@example.com">youremail@example.com</a>
+          </div>
+          <div class="contact-row">
+            <span class="label">Website</span>
+            <a href="https://futurescholarsph.org">futurescholarsph.org</a>
+          </div>
+          <div class="contact-row">
+            <span class="label">Updates</span>
+            <a href="updates.html">See project updates</a>
+          </div>
         </div>
       </div>
+    </section>
 
-      <div class="footer">
-        © 2026 Future Scholars PH • Built for Senior Project • <a href="contact.html">Contact</a>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div>
+          <div class="footer-title">Future Scholars PH</div>
+          <div class="muted">Built for Senior Project • © 2026</div>
+        </div>
+        <div class="footer-links">
+          <a href="about.html">Our Vision</a>
+          <a href="projects.html">Projects</a>
+          <a href="donate.html">Donate</a>
+          <a href="contact.html">Contact</a>
+        </div>
       </div>
-    </div>
-  </div>
-
+    </footer>
+  </main>
 </body>
 </html>
