@@ -31,17 +31,6 @@ img{ max-width:100%; display:block; border-radius:var(--radius); }
 }
 
 /* NAV */
-.brand-logo {
-  height: 40px;   
-  width: auto;
-  display: block;
-}
-
-.brand {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
 .nav{
   position:sticky;
   top:0;
@@ -61,6 +50,13 @@ img{ max-width:100%; display:block; border-radius:var(--radius); }
   align-items:center;
   gap:10px;
   font-weight:700;
+}
+.brand-logo{
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  display: block;
+  border-radius: 0;
 }
 .brand-mark{
   width:34px; height:34px;
