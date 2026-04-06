@@ -1,17 +1,10 @@
-const slides = document.querySelectorAll('.slide');
+const slides = document.querySelectorAll('.slideshow .slide');
 let currentSlide = 0;
 
-function showSlide(index) {
-  slides.forEach((slide, i) => {
-    slide.style.opacity = (i === index) ? "1" : "0";
-  });
-}
-
 if (slides.length > 0) {
-  showSlide(currentSlide);
-
   setInterval(() => {
+    slides[currentSlide].classList.remove('active');
     currentSlide = (currentSlide + 1) % slides.length;
-    showSlide(currentSlide);
+    slides[currentSlide].classList.add('active');
   }, 3500);
 }
