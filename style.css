@@ -655,3 +655,20 @@ h1{
     grid-template-columns:1fr;
   }
 }
+
+.footer-school{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin-top:10px;
+}
+
+.footer-school img{
+  height:32px;
+  width:auto;
+}
+
+.footer-school small{
+  color:var(--muted);
+  font-weight:600;
+}
