@@ -245,6 +245,24 @@ h1{
   font-weight:700;
 }
 
+.school-header{
+  display:flex;
+  align-items:center;
+  gap:14px;
+  margin-bottom:6px;
+}
+
+.school-header img{
+  width:60px;
+  height:60px;
+  object-fit:contain;
+  border-radius:0;
+}
+
+.school-header h2{
+  margin:0;
+}
+
 .school-link{
   margin-top:10px;
 }
