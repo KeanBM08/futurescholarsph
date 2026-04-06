@@ -567,3 +567,39 @@ h1{
   border-radius:16px;
   box-shadow: var(--shadow);
 }
+
+.slideshow-card{
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.slideshow{
+  position: relative;
+  width: 100%;
+  height: 520px;
+  margin-top: 20px;
+  overflow: hidden;
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+}
+
+.slide{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  border-radius: 18px;
+}
+
+.slide.active{
+  opacity: 1;
+}
+
+@media (max-width: 880px){
+  .slideshow{
+    height: 300px;
+  }
+}
