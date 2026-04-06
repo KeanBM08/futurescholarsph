@@ -617,3 +617,41 @@ h1{
     grid-template-columns: 1fr;
   }
 }
+
+.contact-page-grid{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:20px;
+}
+
+.contact-box{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  padding:22px;
+  box-shadow: var(--shadow);
+  text-align:center;
+}
+
+.contact-box h3{
+  margin:0 0 8px;
+}
+
+.contact-box p{
+  margin:0 0 12px;
+}
+
+.contact-link{
+  font-weight:700;
+  color:var(--brand);
+}
+
+.contact-link:hover{
+  text-decoration:underline;
+}
+
+@media (max-width: 880px){
+  .contact-page-grid{
+    grid-template-columns:1fr;
+  }
+}
