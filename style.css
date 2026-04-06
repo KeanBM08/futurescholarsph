@@ -664,8 +664,9 @@ h1{
 }
 
 .footer-school img{
-  height:32px;
+  height:40px;   /* controls size */
   width:auto;
+  object-fit:contain;
 }
 
 .footer-school small{
