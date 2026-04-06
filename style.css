@@ -596,3 +596,24 @@ h1{
     aspect-ratio: 4 / 3;
   }
 }
+
+.update-photo-collage{
+  margin-top:20px;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:16px;
+}
+
+.update-photo-collage img{
+  width:100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius:16px;
+  box-shadow: var(--shadow);
+}
+
+@media (max-width: 880px){
+  .update-photo-collage{
+    grid-template-columns: 1fr;
+  }
+}
