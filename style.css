@@ -70,7 +70,7 @@ img{
 
 .brand-logo{
   width:auto;
-  height:100px;
+  height:60px;
   object-fit:contain;
   display:block;
   border-radius:0;
@@ -661,15 +661,24 @@ h1{
   align-items:center;
   gap:10px;
   margin-top:10px;
+  max-width:max-content;
 }
 
 .footer-school img{
-  height:40px;   /* controls size */
-  width:auto;
+  display:block;
+  width:32px !important;
+  height:32px !important;
+  min-width:32px;
+  min-height:32px;
+  max-width:32px;
+  max-height:32px;
   object-fit:contain;
+  border-radius:0;
+  flex:0 0 32px;
 }
 
 .footer-school small{
   color:var(--muted);
   font-weight:600;
+  white-space:nowrap;
 }
