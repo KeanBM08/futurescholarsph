@@ -245,6 +245,10 @@ h1{
   font-weight:700;
 }
 
+.school-link{
+  margin-top:10px;
+}
+
 /* NEEDS */
 .needs-card{
   max-width:950px;
